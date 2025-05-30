@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+market li::before{
+    background-image: url('https://www.anaconda.com/wp-content/uploads/2025/05/Green-Checkmark.svg')no-repeat center contain no-repeat;
+    content: '';
+    width: 18px;
+    height: 18px;
+    top:8px
+
+}
+.ospkg li::before{
+    content:"•";
+
+    margin: 0;
+    padding-right: 5px;
+    
+}
+
+
+@media (max-width:768px) {
+ .desktop-footer{
+    display: none;
+}   
+}
